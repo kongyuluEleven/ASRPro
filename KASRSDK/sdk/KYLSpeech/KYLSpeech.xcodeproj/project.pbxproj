@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		541B685F24CC13C70076E4A9 /* KYLSpeech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541B685524CC13C60076E4A9 /* KYLSpeech.framework */; };
+		541B686424CC13C70076E4A9 /* KYLSpeechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 541B686324CC13C70076E4A9 /* KYLSpeechTests.m */; };
+		541B686624CC13C70076E4A9 /* KYLSpeech.h in Headers */ = {isa = PBXBuildFile; fileRef = 541B685824CC13C60076E4A9 /* KYLSpeech.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		541B686024CC13C70076E4A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 541B684C24CC13C60076E4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541B685424CC13C60076E4A9;
+			remoteInfo = KYLSpeech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		541B685524CC13C60076E4A9 /* KYLSpeech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KYLSpeech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		541B685824CC13C60076E4A9 /* KYLSpeech.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYLSpeech.h; sourceTree = "<group>"; };
+		541B685924CC13C60076E4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541B685E24CC13C70076E4A9 /* KYLSpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYLSpeechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		541B686324CC13C70076E4A9 /* KYLSpeechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYLSpeechTests.m; sourceTree = "<group>"; };
+		541B686524CC13C70076E4A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		541B685224CC13C60076E4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B685B24CC13C70076E4A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B685F24CC13C70076E4A9 /* KYLSpeech.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541B684B24CC13C60076E4A9 = {
+			isa = PBXGroup;
+			children = (
+				541B685724CC13C60076E4A9 /* KYLSpeech */,
+				541B686224CC13C70076E4A9 /* KYLSpeechTests */,
+				541B685624CC13C60076E4A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		541B685624CC13C60076E4A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				541B685524CC13C60076E4A9 /* KYLSpeech.framework */,
+				541B685E24CC13C70076E4A9 /* KYLSpeechTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		541B685724CC13C60076E4A9 /* KYLSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				541B685824CC13C60076E4A9 /* KYLSpeech.h */,
+				541B685924CC13C60076E4A9 /* Info.plist */,
+			);
+			path = KYLSpeech;
+			sourceTree = "<group>";
+		};
+		541B686224CC13C70076E4A9 /* KYLSpeechTests */ = {
+			isa = PBXGroup;
+			children = (
+				541B686324CC13C70076E4A9 /* KYLSpeechTests.m */,
+				541B686524CC13C70076E4A9 /* Info.plist */,
+			);
+			path = KYLSpeechTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		541B685024CC13C60076E4A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B686624CC13C70076E4A9 /* KYLSpeech.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		541B685424CC13C60076E4A9 /* KYLSpeech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541B686924CC13C70076E4A9 /* Build configuration list for PBXNativeTarget "KYLSpeech" */;
+			buildPhases = (
+				541B685024CC13C60076E4A9 /* Headers */,
+				541B685124CC13C60076E4A9 /* Sources */,
+				541B685224CC13C60076E4A9 /* Frameworks */,
+				541B685324CC13C60076E4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYLSpeech;
+			productName = KYLSpeech;
+			productReference = 541B685524CC13C60076E4A9 /* KYLSpeech.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		541B685D24CC13C70076E4A9 /* KYLSpeechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541B686C24CC13C70076E4A9 /* Build configuration list for PBXNativeTarget "KYLSpeechTests" */;
+			buildPhases = (
+				541B685A24CC13C70076E4A9 /* Sources */,
+				541B685B24CC13C70076E4A9 /* Frameworks */,
+				541B685C24CC13C70076E4A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				541B686124CC13C70076E4A9 /* PBXTargetDependency */,
+			);
+			name = KYLSpeechTests;
+			productName = KYLSpeechTests;
+			productReference = 541B685E24CC13C70076E4A9 /* KYLSpeechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		541B684C24CC13C60076E4A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = wondershare;
+				TargetAttributes = {
+					541B685424CC13C60076E4A9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					541B685D24CC13C70076E4A9 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 541B684F24CC13C60076E4A9 /* Build configuration list for PBXProject "KYLSpeech" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 541B684B24CC13C60076E4A9;
+			productRefGroup = 541B685624CC13C60076E4A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541B685424CC13C60076E4A9 /* KYLSpeech */,
+				541B685D24CC13C70076E4A9 /* KYLSpeechTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541B685324CC13C60076E4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B685C24CC13C70076E4A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541B685124CC13C60076E4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541B685A24CC13C70076E4A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541B686424CC13C70076E4A9 /* KYLSpeechTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		541B686124CC13C70076E4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541B685424CC13C60076E4A9 /* KYLSpeech */;
+			targetProxy = 541B686024CC13C70076E4A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		541B686724CC13C70076E4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		541B686824CC13C70076E4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		541B686A24CC13C70076E4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B72G3TW8NM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KYLSpeech/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wondershare..KYLSpeech;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		541B686B24CC13C70076E4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = B72G3TW8NM;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KYLSpeech/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wondershare..KYLSpeech;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		541B686D24CC13C70076E4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72G3TW8NM;
+				INFOPLIST_FILE = KYLSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wondershare..KYLSpeechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		541B686E24CC13C70076E4A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B72G3TW8NM;
+				INFOPLIST_FILE = KYLSpeechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wondershare..KYLSpeechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541B684F24CC13C60076E4A9 /* Build configuration list for PBXProject "KYLSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B686724CC13C70076E4A9 /* Debug */,
+				541B686824CC13C70076E4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541B686924CC13C70076E4A9 /* Build configuration list for PBXNativeTarget "KYLSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B686A24CC13C70076E4A9 /* Debug */,
+				541B686B24CC13C70076E4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541B686C24CC13C70076E4A9 /* Build configuration list for PBXNativeTarget "KYLSpeechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541B686D24CC13C70076E4A9 /* Debug */,
+				541B686E24CC13C70076E4A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 541B684C24CC13C60076E4A9 /* Project object */;
+}

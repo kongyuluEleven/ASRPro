@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "absolute:/Users/kongyulu/development/asr/sdk/ASRPro/KASRSDK/sdk/KYLSpeech/../../demo/KSpeechSDKDemo/KSpeechSDKDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../sdk/KYLSpeech/KYLSpeech.xcodeproj">
+   </FileRef>
+</Workspace>
