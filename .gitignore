@@ -88,3 +88,11 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# the libBaiduSpeechSDK.a to big more than 100MB will reject by git server
+KASRSDK/sdk/KYLSpeech/KYLSpeech/libs/third/BaiduSpeechSDK/libBaiduSpeechSDK.a
+
+#File OpenEars.framework is 57.74 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+KASRSDK/sdk/KYLSpeech/KYLSpeech/libs/third/OpenEars/OpenEars.framework
+
+
